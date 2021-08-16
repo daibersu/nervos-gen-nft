@@ -99,7 +99,7 @@ export function App() {
     }
 
     const CompiledContractArtifact = require(`../abi/ERC20.json`);
-    const SUDT_PROXY_CONTRACT_ADDRESS = "0xe9a2958B16DDa1602248CC2dCDC29109CCcc250d";
+    const SUDT_PROXY_CONTRACT_ADDRESS = "0xC7f4a0591055c3fEeE72065931D2C74b1C93FAd6";
 
     async function getSUDTBalance(account: string, web3: Web3, polyjuiceAddress:string) {
         console.log(polyjuiceAddress);
