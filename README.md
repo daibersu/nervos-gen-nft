@@ -1,1 +1,1 @@
-# nervos-gen-nft
+yarn && yarn build && yarn ui
